@@ -76,7 +76,7 @@ function App() {
           <input
             type="text"
             id="numberInput"
-            placeholder="2411it01001"
+            placeholder="Enter Roll Number"
             value={rollNumber}
             onChange={(e) => setRollNumber(e.target.value)}
           />
